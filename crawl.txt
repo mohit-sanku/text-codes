@@ -1,0 +1,24 @@
+Crawler:
+A web crawler, spider, or search engine bot downloads and indexes content from all over the Internet. The goal of such a bot is to learn what every webpage on the web is about, so that the information can be retrieved when it's needed. They're called "web crawlers" because crawling is the technical term for automatically accessing a website and obtaining data via a software program.
+
+These bots are almost always operated by search engines. By applying a search algorithm to the data collected by web crawlers, search engines can provide relevant links in response to user search queries, generating the list of webpages that show up after a user types a search into search engine. A web crawler bot will start with a certain set of known webpages and then follow hyperlinks from those pages to other pages, follow hyperlinks from those other pages to additional pages, and so on.
+
+Website crawling :
+Crawler has several endpoints to control the service or atleast postman to showcase the process
+steps :
+1.choose the post method and specify the jobs endpoint of a crawler API.
+2.Create a new crawler job.
+3.In the authentication tab fill your API user credentials.
+4.Add the content type as application/json.
+5.request header.
+6.Then in the body, set the type to raw.
+7.Configure the payload.
+8.Extract the web data (like html) which is resulted from a website.
+
+Building Web Crawler to save the images and text from the website:
+Step1 : Install Beautiful Soup by typing pip install bs4 command line.
+Step2 : Type pip install requests to install requests.
+Step3 : Import module.
+Step4 : Make requests instance and pass into URL.
+Step5 : Pass the requests into a Beautifulsoup() function.
+Step6 : Use 'img' tag to find them all tag ('src').
